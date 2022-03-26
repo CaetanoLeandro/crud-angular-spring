@@ -1,13 +1,15 @@
-.form {
+
+.formulario {
   background-color: white;
   padding: 16px;
   border-radius: 4px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  &__titulo {
-    text-transform: capitalize;
-    color: var(--primary);
-  }
 }
+  .formulario .formulario_titulo {
+    text-transform: capitalize;
+    color: #369c38;;
+  }
+
 
 .form-field {
   width: 100%;
@@ -15,29 +17,30 @@
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
-  color: var(--primary);
+  color: #369c38;
+}
 
-  &__label {
+.form-field .form-field_label{
     color: inherit;
     margin-bottom: 4px;
     font-size: 12px;
   }
 
-  &__input {
+.form-field .form-field_input{
     padding: 8px;
     border-radius: 4px;
     color: inherit;
     border: 2px solid;
     outline: none;
   }
-}
 
-.button-wrapper {
+
+.botao-wrapper {
   display: flex;
 }
 
-.button {
-  background-color: var(--primary);
+.botao {
+  background-color: #369c38;;
   color: white;
   display: block;
   flex: 1;
@@ -47,13 +50,9 @@
   padding: 0.5em;
   cursor: pointer;
   transition: opacity 0.2s;
+}
 
-  &--cancel {
-    background-color: var(--secondary);
-    margin-left: 20px;
-  }
-
-  &:hover {
+.botao:hover {
     opacity: 0.8;
   }
-}
+
