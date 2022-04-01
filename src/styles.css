@@ -15,3 +15,10 @@
   padding: 30px;
   margin: 0 auto;
 }
+
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  vertical-align: center;
+}

@@ -1,13 +1,20 @@
-
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .formulario {
-  background-color: white;
+  border-style: solid;
+  border-color: #369c38;
+  background-color: aliceblue;
   padding: 16px;
-  border-radius: 4px;
+  border-radius: 8%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
   .formulario .formulario_titulo {
     text-transform: capitalize;
-    color: #369c38;;
+    text-align: center;
+    color: #369c38;
   }
 
 
@@ -17,7 +24,7 @@
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
-  color: #369c38;
+  color: darkblue;
 }
 
 .form-field .form-field_label{
