@@ -3,13 +3,16 @@
     <link href="nova-transferencia.css" rel="stylesheet" type="text/css">
 </head>
   <section class="container">
-  <form class="formulario" (ngSubmit)="transferir()">
+  <form class="formulario" (ngSubmit)="transferir()" >
     <h2 class="formulario__titulo"> Nova Transferência</h2>
 
     <div class="form-field">
       <label class="form-field_label" for="valor">Valor</label>
       <input class="form-field_input" id="valor" type="text" [(ngModel)]="valor" name="valor">
     </div>
+           <p FundoAmarelo>
+             Cor fundo:
+            </p>
 
     <div class="form-field">
       <label class="form-field_label" for="destino">Destino</label>

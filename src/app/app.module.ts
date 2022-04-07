@@ -9,12 +9,15 @@ import {FormsModule} from "@angular/forms";
 import { RoutesComponent } from './component/routes/routes.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TokenInterceptorService} from "./component/user/token/token-interceptor.service";
-
+import { DiretivasNgifComponent } from './diretivas-ngif/diretivas-ngif.component';
+import { FundoAmareloDirective } from './diretiva-cor/fundo-amarelo.directive'
 @NgModule({
   declarations: [
     AppComponent,
     NovaTransferenciaComponent,
-    RoutesComponent
+    RoutesComponent,
+    DiretivasNgifComponent,
+    FundoAmareloDirective,
   ],
   imports: [
     BrowserModule,
