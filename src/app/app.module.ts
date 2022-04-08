@@ -10,7 +10,10 @@ import { RoutesComponent } from './component/routes/routes.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TokenInterceptorService} from "./component/user/token/token-interceptor.service";
 import { DiretivasNgifComponent } from './diretivas-ngif/diretivas-ngif.component';
-import { FundoAmareloDirective } from './diretiva-cor/fundo-amarelo.directive'
+import { FundoAmareloDirective } from './diretiva-cor/fundo-amarelo.directive';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { ContasComponent } from './contas/contas.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +21,9 @@ import { FundoAmareloDirective } from './diretiva-cor/fundo-amarelo.directive'
     RoutesComponent,
     DiretivasNgifComponent,
     FundoAmareloDirective,
+    HomeComponent,
+    LoginComponent,
+    ContasComponent,
   ],
   imports: [
     BrowserModule,
